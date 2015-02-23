@@ -1,0 +1,178 @@
+div{
+  border  : 1px solid black;
+  padding : 0px;
+  margin  : 0px;
+}
+
+#topDiv{
+  text-align  :center;
+  width       :780px;
+  margin-left :auto;
+  margin-right:auto;
+}
+
+#headerMainDiv{
+  width    : 600px;
+  height   : 50px;
+  float    : left;
+  overflow : hidden;
+}
+
+#headerUserInfoDiv{
+  width  : 175px;
+  height : 50px;
+  float  : right;
+  overflow : hidden;
+}
+
+#mainContentDiv{
+  width     : 780px;
+  min-height: 400px;
+  float     : left;
+  overflow  : hidden;
+}
+
+#footerDiv{
+  width    : 780px;
+  height   : 50px;
+  clear    : left;
+  overflow : hidden;
+}
+
+#registrationFormDiv{
+  width   : 400px;
+  margin  : auto;
+  margin-top : 5px;
+  padding : 5px;
+  border  : none
+}
+
+#registrationFormDiv table{
+  width  : 90%;
+  margin : auto;
+}
+
+#komunikatDiv{
+  background-color : #FFFF00;
+  width       : 98%;
+  border      : none;
+  margin      : auto;
+  font-weight : bold;
+  color       : red;
+  padding     : 2px;
+}
+
+#searchFormDiv{
+  border        : none;
+  border-bottom : 1px solid black;
+  margin-top    : 10px;
+  padding-bottom: 10px;
+}
+
+#searchResultsDiv{
+  border : none;
+}
+
+#searchResultsDiv table{
+  width      : 90%;
+  text-align : left;
+  margin     : auto;
+  margin-top : 10px;
+  border-collapse : collapse;
+}
+
+#searchResultsDiv table td{
+  border  : 1px solid black;
+  padding : 2px;
+}
+
+#bookDetailsDiv{
+  border : none;
+  margin-top : 15px;
+  margin-bottom : 15px;
+}
+
+#bookDetailsDiv table{
+  width      : 90%;
+  text-align : left;
+  margin     : auto;
+  border-collapse : collapse;
+}
+
+#bookDetailsDiv table td{
+  border  : 1px solid black;
+  padding : 5px;
+}
+
+#basketDiv{
+  border : none;
+  margin-top : 15px;
+  margin-bottom : 15px;
+}
+
+#basketDiv table{
+  width      : 90%;
+  text-align : left;
+  margin     : auto;
+  border-collapse : collapse;
+}
+
+#basketDiv table td, #basketDiv table th{
+  border  : 1px solid black;
+  padding : 5px;
+}
+
+#loginFormDiv{
+  width       : 60%;
+  margin-left : auto;
+  margin-right: auto;
+  margin-top  : 15%;
+}
+
+#loginFormMsgDiv{
+  background-color : #f0f0f0;
+  font-size : 16pt;
+}
+
+#loginFormDiv table{
+  width      : 300px;
+  text-align : right;
+  margin     : auto;
+  margin-top : 5px;
+  margin-bottom : 5px;
+}
+
+#orderNoLoginInfoDiv{
+  border     : none;
+  margin-top : 10px;
+  font-size: 14pt;
+}
+
+.textMiddle{
+  text-align : center;
+}
+
+.textLeft{
+  text-align : left;
+}
+
+.textRight{
+  text-align : right;
+}
+
+.col1st{
+  text-align : right;
+}
+
+.col2st{
+  text-align : left;
+}
+
+.colmerged{
+  padding-top : 10px;
+  text-align : center;
+}
+
+.tableRowTitle{
+  font-weight : bold;
+}
