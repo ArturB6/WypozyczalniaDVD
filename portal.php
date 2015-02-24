@@ -152,7 +152,7 @@ class Portal
     $query .= 'idf, Wytwornie.Nazwa AS Wytwornia, Cena, ';
     $query .= 'Filmy.Id AS Id ';
     $query .= 'FROM Filmy, Wytwornie, Autorzy, FilmyAutorzy ';
-    $query .= 'WHERE Filmy.WydawnictwoId = Wytwornie.Id AND ';
+    $query .= 'WHERE Filmy.WytworniaId = Wytwornie.Id AND ';
     $query .= 'FilmyAutorzy.`FilmId` = Filmy.Id AND ';
     $query .= 'FilmyAutorzy.AutorId = Autorzy.Id ';
     $query .= $cond1.$cond2;
@@ -232,7 +232,7 @@ class Portal
         echo '<td rowspan="7" class="textMiddle">';
         echo '<a href="index.php?action=addToBasket&id='.$row['Id'].'">Do koszyka</a></td></tr>';
         echo '<tr><td>Autor</td><td>'.$row['Autor'].'</td></tr>';
-        echo '<tr><td>idf</td><td>'.$row['ISBN'].'</td></tr>';
+        echo '<tr><td>idf</td><td>'.$row['idf'].'</td></tr>';
         echo '<tr><td>Wytwornia</td><td>'.$row['Wytwornia'].'</td></tr>';
         echo '<tr><td>Rok wydania</td><td>'.$row['Rok'].'</td></tr>';
         echo '<tr><td>Cena</td><td>'.$row['Cena'].'</td></tr>';
