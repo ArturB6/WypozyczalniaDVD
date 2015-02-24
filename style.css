@@ -86,20 +86,20 @@ div{
   padding : 2px;
 }
 
-#bookDetailsDiv{
+#filmDetailsDiv{
   border : none;
   margin-top : 15px;
   margin-bottom : 15px;
 }
 
-#bookDetailsDiv table{
+#filmDetailsDiv table{
   width      : 90%;
   text-align : left;
   margin     : auto;
   border-collapse : collapse;
 }
 
-#bookDetailsDiv table td{
+#filmDetailsDiv table td{
   border  : 1px solid black;
   padding : 5px;
 }
